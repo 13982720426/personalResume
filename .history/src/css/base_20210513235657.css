@@ -342,21 +342,10 @@ a {
 .content-bd .item-hd .item-time {
   display: inline-block;
   font-size: 14px;
-  width: 135px;
+  width: 100px;
 }
 @media screen and (max-width: 720px) {
   .content-bd .item-hd .item-time {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-}
-.content-bd .item-hd .item-time2 {
-  display: inline-block;
-  font-size: 14px;
-  width: 70px;
-}
-@media screen and (max-width: 720px) {
-  .content-bd .item-hd .item-time2 {
     width: 100%;
     margin-bottom: 5px;
   }
