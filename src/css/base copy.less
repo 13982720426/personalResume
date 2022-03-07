@@ -21,7 +21,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
     font-family: @font-family;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22 / 14;
     color: #333;
     background-color: #eee;
@@ -84,7 +84,7 @@ a {
     }
 }
 .content-hd {
-    padding: 60px 50px 20px 50px;
+    padding: 30px 30px 10px 30px;
     color: #fff;
     background-color: @color-main;
     overflow: hidden;
@@ -150,7 +150,7 @@ a {
         }
         h2 {
             display: inline-block;
-            font-size: 50px;
+            font-size: 40px;
             font-weight: bold;
             @media screen and (max-width: 720px) {
                 margin: 5px auto 0;
@@ -165,28 +165,31 @@ a {
     .info {
         padding-left: 5px;
         line-height: 30px;
+        // h2 {
+        //     margin: 8px 0 4px;
+        //     font-size: 20px;
+        // }
         h3 {
-            margin: 10px 0;
-            font-size: 22px;
+            font-size: 18px;
         }
     }
     .contact {
         padding-right: 5px;
         ul {
-            margin-top: 10px;
+            margin-top: 8px;
             @media screen and (max-width: 720px) {
                 margin: 16px 0 0;
                 text-align: center;
             }
             > li {
-                height: 30px;
+                height: 23px;
                 @media screen and (max-width: 720px) {
                     display: inline-block;
                 }
                 > a {
                     font-family: @font-family-title;
-                    font-size: 20px;
-                    line-height: 30px;
+                    font-size: 16px;
+                    line-height: 23px;
                     color: #fff;
                     &:hover {
                         color: #e8e8e8;
@@ -234,13 +237,13 @@ a {
         float: right;
     }
     section {
-        padding: 20px 16px;
+        padding: 20px 18px;
         overflow: hidden;
     }
     .section-hd {
         position: relative;
-        height: 40px;
-        margin: 8px auto 10px;
+        height: 34px;
+        margin: 2px auto 10px;
         overflow: hidden;
     }
     .section-bd {
@@ -268,13 +271,13 @@ a {
     .section-title {
         position: relative;
         z-index: 1;
-        width: 40%;
+        width: 24%;
         min-width: 100px;
         margin: 0 auto;
         padding: 4px 10px;
         border-radius: 32px;
-        font-size: 20px;
-        font-weight: bolder;
+        font-size: 16px;
+        font-weight: bold;
         text-align: center;
         color: #fff;
         background-color: #00b38a;
@@ -321,7 +324,7 @@ a {
     }
     .item-hd {
         position: relative;
-        padding: 8px 0;
+        padding: 8px 0 5px;
         font-weight: 500;
         line-height: 22px;
         overflow: hidden;
@@ -329,24 +332,25 @@ a {
             color: @color-main;
         }
         .item-time {
+            // float: left;
             display: inline-block;
-            font-size: 18px;
-            width: 160px;
+            font-size: 14px;
+            width: 120px;
             @media screen and (max-width: 720px) {
                 width: 100%;
                 margin-bottom: 5px;
             }
         }
-        // .item-time2 {
-        //     // float: left;
-        //     display: inline-block;
-        //     font-size: 14px;
-        //     width: 60px;
-        //     @media screen and (max-width: 720px) {
-        //         width: 100%;
-        //         margin-bottom: 5px;
-        //     }
-        // }
+        .item-time2 {
+            // float: left;
+            display: inline-block;
+            font-size: 14px;
+            width: 60px;
+            @media screen and (max-width: 720px) {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
         .item-more {
             float: right;
             height: 22px;
@@ -362,10 +366,10 @@ a {
             }
         }
         .item-name {
+            // float: left;
             display: inline-block;
-            font-size: 18px;
             em {
-                font-weight: bolder;
+                font-weight: bold;
             }
         }
     }
@@ -373,37 +377,42 @@ a {
         margin-bottom: 6px;
     }
     .section-content {
-        line-height: 30px;
+        line-height: 25px;
         text-align: justify;
         word-break: break-all;
+        margin-bottom: 2px;
         .iconfont {
             color: @color-main;
         }
         em {
             display: inline-block;
             font-family: Monaco, Menlo, @font-family;
-            font-size: 18px;
+            font-size: 13px;
             line-height: 15px;
             border: 1px solid #e6e6e6;
             border-radius: 3px;
-            color: #000000;
-            // margin: 0 3px;
-            padding: 0 3px;
+            color: #383838;
+            margin: 0 3px;
+            padding: 0 4px;
             font-weight: bold;
-            background-color: rgb(201, 201, 201);
+            // background-color: #f6f6f6;
+            // background-color: rgb(225, 225, 225);
+            background-color: #eee;
         }
         strong {
             font-family: @font-family;
-            font-size: 18px;
+            font-size: 13px;
             line-height: 15px;
             font-weight: 500;
-            color: #000000;
+            color: #494949;
             margin: 0 3px;
             padding: 0 4px;
             font-weight: bolder;
 
-            border-bottom: 1px solid rgb(70, 70, 70);
-            box-shadow: inset 0 -8px rgb(179, 179, 179);
+            border-bottom: 1px solid rgb(180, 180, 180);
+            box-shadow: inset 0 -8px rgb(210, 210, 210);
+
+            // box-shadow: inset 0 -8px rgb(200, 200, 200);
         }
         > a {
             padding-left: 68px;
@@ -438,15 +447,15 @@ a {
 }
 .btn {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 1px 5px;
     border: 1px solid @color-main;
     border-radius: 3px;
     font-family: Menlo, @font-family;
     height: 20px !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: bold;
-    line-height: 20px !important;
-    // margin: 2px 2px;
+    line-height: 18px !important;
+    margin: 2px 2px;
     text-align: center;
     color: @color-main;
     &:hover {
